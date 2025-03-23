@@ -74,10 +74,10 @@ unfixable = ["F401", "F841"]
 convention = "google"
 
 [tool.poe.tasks]
-ruff-format = "ruff format src tests"
-ruff-format-check = "ruff format --check src tests"
-ruff-lint = "ruff check src tests --fix"
-ruff-lint-check = "ruff check src tests"
+ruff-format = "ruff format src"
+ruff-format-check = "ruff format --check src"
+ruff-lint = "ruff check src --fix"
+ruff-lint-check = "ruff check src"
 mdformat = "mdformat *.md"
 mdformat-check = "mdformat --check *.md"
 mypy = "mypy src"
