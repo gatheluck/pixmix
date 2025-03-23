@@ -5,6 +5,9 @@ by [Dan Hendrycks*](https://danhendrycks.com/), [Andy Zou*](https://andyzoujm.gi
 
 <img align="center" src="assets/pixmix.png" width="750">
 
+> [!Important]
+> This repo is forked version of the original pixmix repo.
+
 ## Introduction
 
 In real-world applications of machine learning, reliable and safe systems must consider
